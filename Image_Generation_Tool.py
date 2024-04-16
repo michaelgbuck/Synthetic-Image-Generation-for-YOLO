@@ -1,4 +1,6 @@
-##### label full set of images if background selected ####
+#### 1: Ensure that the parameters have been set using GUI.py before running this script ####
+#### 2: Paste the file path of your "main" file on line 473 ####
+
 
 import random
 import bpy
@@ -7,6 +9,7 @@ import os
 import cv2
 import imutils
 import time
+
 
 
 def Read_Params(main):
@@ -465,9 +468,11 @@ start_time = time.time()
 image_count = 1
 part_count = 0
 
-##!!! this is the only line the user has to change !!!##
+#### !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Paste the location of the mail folder here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#####
+
 main_folder = "/Users/mgbuck/Desktop/Blender Programming/"
-##!!! this is the only line the user has to change !!!##
+
+#### !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Paste the location of the mail folder here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#####
 
 HDRI = "Default.exr"
 parts = get_images(main_folder + "Parts/", ".STL")

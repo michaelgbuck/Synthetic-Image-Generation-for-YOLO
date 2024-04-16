@@ -1,3 +1,5 @@
+#### 1: Paste the file path of your "main" file on line 168 ####
+
 import tkinter as tk
 from tkinter import ttk
 
@@ -164,6 +166,7 @@ def Params_file(parameters):
 
 
 main_folder = "/Users/mgbuck/Desktop/Blender Programming/"
+
 entries = user_interface()
 Params_file(entries)
 

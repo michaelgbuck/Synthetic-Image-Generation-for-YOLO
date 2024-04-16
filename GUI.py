@@ -1,4 +1,5 @@
-#### 1: Paste the file path of your "main" file on line 168 ####
+#### This script is to be run first, to set the parameters for the tool ####
+#### Paste the file path of your "main" file on line 169 ####
 
 import tkinter as tk
 from tkinter import ttk
@@ -164,8 +165,11 @@ def Params_file(parameters):
         data_file.write(f"{pars}\n")
     data_file.close()
 
+#### !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Paste the location of the mail folder here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#####
 
 main_folder = "/Users/mgbuck/Desktop/Blender Programming/"
+
+#### !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Paste the location of the mail folder here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#####
 
 entries = user_interface()
 Params_file(entries)

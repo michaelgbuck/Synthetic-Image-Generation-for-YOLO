@@ -3,4 +3,4 @@ A tool for generating domain randomised, labelled synthetic images formatted for
 
 - Instructions on how to install the related software (Blender, VS code & Anaconda) and configure them with the tool
 - A copy of the master file that needs to be saved locally - the tool will use this file to load in backgrounds etc and save images
-- Explanation of how each function works to promote further tool development
+- Explanation of how each function works to facilitate further tool development
